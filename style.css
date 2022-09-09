@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Nunito&family=Ubuntu&display=swap');
+body{
+    background-color: beige;
+    background-image: url(back.jfif);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family:"Ubuntu", sans-serif ;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 70px;
+    background-color: black;
+    color: white;
+}
+nav ul li {
+    padding: 0 12px;
+}
+.brand img{
+    width:120px ;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.8em;
+}
+.container{
+    min-height: 91vh;
+    background-color: black;
+    color: white;
+    align-self: center;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    width: 45%;
+    margin: 23px auto;
+    border-radius: 13px;
+    padding: 34px;
+    background-image: url(banner.jfif);
+    flex-direction: column;
+}
+.bottom{
+    display: flex;
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+ #myprogressbar{
+    width: 80vw;
+    text-align: center;
+ }
+ .songiteam{
+    height: 60px;
+    display: flex;
+    background-color:gainsboro;
+    color: black;
+    width: 80%;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+.songiteam img{
+    width: 60px;
+    border-radius: 60px;
+    flex-direction: column;
+}
+.timespan{
+    margin: 0 25px;
+}
+.songinfo{
+    position: absolute;
+    left=0
+}
+.sungby{
+    padding: auto;
+    font: .size;
+}
